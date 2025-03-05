@@ -1,0 +1,9 @@
+Steps:
+
+1. **Open Microsoft Excel** containing the **Pivot Table**.  
+2. Click anywhere inside the **Pivot Table** to activate the **PivotTable Analyze** tab.  
+3. Go to the **PivotTable Analyze** tab in the toolbar.  
+4. Click on **PivotChart**.  
+5. In the **Insert Chart** window, select **Clustered Column Chart** (or any other preferred chart type).  
+6. Click **OK**.  
+7. The **Clustered Column Chart** will be displayed based on your Pivot Table data.  

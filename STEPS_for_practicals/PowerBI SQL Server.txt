@@ -1,0 +1,16 @@
+Steps:
+
+1. Open Microsoft Power BI
+2. Click on Get Data and select SQL Server Database.
+3. Copy the server name from Microsoft SQL Server Management Studio and paste it where the server is asked for connection between the two apps. Select Import and click on OK.
+4. Select the table you wish to go ahead with and load it.
+5. Once the data is loaded the following dialogue box will be displayed. The data will be displayed on the screen.
+6. On clicking the charts icon the graphical representation of the data will be displayed.
+7. Select SQL Server Database under Get Data and connect.
+8. Enter the server name and the file name with .bak extension. Click on Import and OK.
+9. Open Microsoft SQL Server Management Studio. Right click on Databases and click on Restore Database
+10. Select Device and click on the button next to it for additional steps.
+11. Click on Add. Search for your file with .bak extension and select it.
+12. Click on Add. Search for another file and add it as well.
+13. Navigate the file:
+14. Load the data

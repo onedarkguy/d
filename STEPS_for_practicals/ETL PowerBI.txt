@@ -1,0 +1,17 @@
+Steps:
+
+1. Open Microsoft Power BI.  
+2. Click on Get Data and select O Data Feed.  
+3. Paste the following URL: "https://services.odata.org/Northwind/Northwind.svc/".  
+4. Select the tables – Orders, Order_Details, and Products and load them.  
+5. The loading process takes a bit of time.  
+6. The data will be displayed for the selected tables once the loading is complete.  
+7. Right-click on any column and select Edit Query.  
+8. A new window will be opened.  
+9. Click on Custom Column.  
+10. Name the column LineTotal and enter the formula by inserting the columns as variables, then click on OK.  
+11. The LineTotal column will be added.  
+12. Select the Orders table and under Table Tools, select Manage Relationships.  
+13. The columns will come pre-selected.  
+14. Edit the details according to the requirement.  
+15. Click on the Relationships icon.  

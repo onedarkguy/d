@@ -1,0 +1,21 @@
+Steps
+
+1. Add the AdventureWorks file in SQL Server Management Database.  
+2. Open SQL Server Data Tools. Go to File then New and then Project.  
+3. Select Integration Services and select Integration Services Project, rename it as ETL Process.  
+4. In the Solution Explorer right-click on Connection Managers under ETL Process the file name and select the New Connection Manager.  
+5. Add OLEDB as the Connection Manager.  
+6. After adding the Connection Manager the following dialogue box will open. Click on New.  
+7. Enter the Server Name and select the database that is AdventureWorks file.  
+8. Test the connection, it should succeed.  
+9. Click on OK.  
+10. The following will be displayed on the main screen in the Control Flow view.  
+11. In the Data Flow task, the following will be displayed.  
+12. Under Other Sources in the SSIS Toolbox drag and drop OLE DB Source to the screen.  
+13. Right-click on OLE DB Source. Under Connection Manager enter the OLE DB Connection Manager and the name of the tables by clicking on New.  
+14. Select Preview to see the query results.  
+15. Click on OK.  
+16. Under Other Destinations, drag and drop OLE DB Destination to the Data Flow screen.  
+17. In OLE DB Destination Editor check the Mappings.  
+18. Start the debugging.  
+19. It should be successful. 

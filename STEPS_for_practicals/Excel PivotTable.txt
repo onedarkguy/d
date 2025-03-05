@@ -1,0 +1,12 @@
+Steps:  
+
+1. **Open Microsoft Excel**.  
+2. Go to the **Data** tab.  
+3. Click on **Get Data** → **From Other Sources** → **From Analysis Services**.  
+4. Enter your **Server Name** and click **Next**.  
+5. Select any available **table** from the list and click **Next**.  
+6. Click on **Finish** to complete the import process.  
+7. In the **Import Data** window, select **PivotTable Report**.  
+8. Click on **OK** to insert the **Pivot Table**.  
+9. In the **PivotTable Fields** pane, select the required **Row Labels** for your Pivot Table.  
+10. Drag the **required fields** into the **Rows**, **Columns**, and **Values** sections as needed.  

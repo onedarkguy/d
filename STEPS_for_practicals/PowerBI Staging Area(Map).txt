@@ -1,0 +1,14 @@
+Steps:
+
+1. In Power BI, click on **File**.  
+2. Go to **Options and Settings** and click on **Options**.  
+3. Check **Map and Filled Map Visuals**.  
+4. Click on **OK**.  
+5. Open a table.  
+6. Right-click on any column and select **Edit Query**.  
+7. Another window will be opened.  
+8. The tables will now be loaded.  
+9. Select the **Customers** table.  
+10. Select any column and right-click to select **Edit Query**.  
+11. A new window will open.  
+12. Remove duplicate entries by right-clicking on the column and selecting **Remove Duplicates**.  

@@ -1,0 +1,10 @@
+Steps:
+
+1. Firstly make an excel sheet with your data
+2. Open Microsoft Power BI
+3. Select Excel Workbook under the Get Data option. Click on Connect.
+4. Browse your file and select it.
+5. Select the sheet and click on Load once the table is displayed.
+6. Wait for the loading to complete.
+7. The data will be shown on the screen once the loading is complete.
+8. Click on the Charts icon to display the graphical representation of the data.

@@ -1,0 +1,10 @@
+Steps:
+
+1. Open Microsoft Power BI
+2. Click on Get Data and select O Data Feed.
+3. "https://services.odata.org/Northwind/Northwind.svc/" paste this URL.
+4. Select the services level to apply the settings to and connect.
+Select two tables that are Customers and Products table and load them.
+5. Load the data
+Select the Products table.
+6. Click on the charts icon and select the type of graph to be displayed.

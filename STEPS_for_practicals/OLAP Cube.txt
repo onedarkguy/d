@@ -1,0 +1,37 @@
+Steps:
+
+1. Open **SQL Server Management Studio**.  
+2. Authentication will be **SQL Server Authentication**.  
+3. Enter the **login username** and **password**.  
+4. In the **Object Explorer**, right-click on the server and click on **Properties**.  
+5. Open **Security** under **Server Properties** and check if everything is proper.  
+6. Under **Security**, then under **Logins**, find the folder named **sa**, which is the login username.  
+7. Right-click on **sa** and select **New Login**.  
+8. Check the **enforcement of passwords**.  
+9. Enable the login in **Status**.  
+10. Right-click on the **server name** and click on **Restart**.  
+11. Click on **Connect** and select **Analysis Services**.  
+12. Enter the **credentials**.  
+13. The **Analysis Server** will now be added in the **Object Explorer**.  
+14. In **Microsoft SQL Server Management**, click on **File**, then **Open**, and then **File**.  
+15. Search for the file **Data_WareHouse_SQLScript.zip**.  
+16. Click on **Execute** after importing the file. The following screen is displayed.  
+17. **Query executed successfully** message will be displayed at the bottom of the screen.  
+18. Right-click on **Databases** and click on **Refresh**.  
+19. In **Solution Explorer**, select **Cube**, which opens a dialogue box.  
+20. Select the tables – **FactProductSales, DimProduct, DimTime** and click on **Next**.  
+21. Select all the **measures** to include in the cube and click on **Next**.  
+22. Select all the **new dimensions** and click on **Next**.  
+23. Name the cube as **Sales DW** and click on **Finish**.  
+24. The **relationship** will be displayed on the screen.  
+25. Drag and drop **Year, Quarter, and Month** to the **Attributes**.  
+26. Drag and drop the **attributes** into the same **Hierarchy**.  
+27. Save the progress and click on **OK**.  
+28. Right-click on the **file name** and select **Properties**.  
+29. In **Build**, make sure everything is correct.  
+30. In **Deployment**, make **Processing Option** as **Full** instead of **Default**.  
+31. Set **Server Mode** as **Deploy all** instead of **Deploy Changes Only**.  
+32. Set **Server** as the **server name used till now** instead of **localhost**.  
+33. Apply these changes.  
+34. Right-click on the **file name** and click on **Deploy** to deploy the project.  
+35. At the bottom of the screen, it is shown that the **deployment is successful**.  
